@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cornflower_blue">#3373B0</color>
+    <color name="danube">#4d8ecb</color>
+    <color name="st_tropaz">#285a8a</color>
+    <color name="spring_rain">#B3CBB9</color>
+    <color name="tasman">#d2e0d5</color>
+    <color name="abbey">#46494C</color>
+    <color name="line_grey">#BFBFBF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+
+    <color name="chart_3_97">#FF5722</color>
+    <color name="chart_10_90">#FFC107</color>
+    <color name="chart_25_75">#8BC34A</color>
+    <color name="chart_50">#009688</color>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pediatric Care Assistant</string>
+    <string name="title_home">Home</string>
+    <string name="title_tracker">Tracker</string>
+    <string name="title_chatbot">Chatbot</string>
+    <string name="openai_key">sk-proj-HfOgcnLa2K9VzAy6rW3AT3BlbkFJ4XQomerEPUtObp0X9jBf</string>
+    <string name="maps_key">AIzaSyD8B-bXHTQVxeq7LCgFAbv4mq_9vZUFD5A</string>
+
+    <string name="WHO_weight_chart_description">The WHO weight chart is a tool from the World Health Organization that shows how a child\'s weight compares to others of the same age, making sure they are growing properly.</string>
+    <string name="WHO_height_weight_chart_description">The WHO height/weight chart is a tool from the World Health Organization that shows how a child\'s weight compares to others of the same height, ensuring they are at a healthy size.</string>
+    <string name="WHO_height_chart_description">The WHO height chart helps track how tall a child grows from birth to 5 years old. It shows how a child\'s height compares to others of the same age, making sure they are growing properly.</string>
+
+    <string-array name="spinner_add_reminder_repetition_format_items">
+        <item>Does not repeat</item>
+        <item>Repeat on time period</item>
+        <item>Repeat on given days</item>
+    </string-array>
+
+    <string-array name="spinner_add_reminder_repetition_time_items">
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Weeks</item>
+        <item>Months</item>
+        <item>Years</item>
+    </string-array>
+
+    <string-array name="weight_units">
+        <item>kg</item>
+        <item>lbs</item>
+    </string-array>
+
+    <string-array name="height_units">
+        <item>cm</item>
+        <item>ft</item>
+    </string-array>
+
+    <string-array name="chart_types">
+        <item>WHO Weight chart</item>
+        <item>WHO Height chart</item>
+        <item>WHO Weight/Height chart</item>
+    </string-array>
+
+    <string-array name="birth_genders">
+        <item>Boy</item>
+        <item>Girl</item>
+    </string-array>
+
+    <string name="articles_categories_all">All categories</string>
+
+
+
+
+    <string name="help_title">Help Page</string>
+    <string name="help_intro">This app is designed to help parents take care of their child’s health. It has three key pages: Home Page, Growth Tracker, and Chatbot. Below, you will find information on what each page has to offer.</string>
+
+    <string name="help_home_title">Home</string>
+    <string name="help_home_desc">The main page of the app. It displays Articles, Reminders, and Hospitals.</string>
+    <string name="help_home_articles">1. Articles:\n- Browse through various articles on child health. \n- One article is selected for you each day, but you also have access to all the articles.</string>
+    <string name="help_home_reminders">2. Reminders:\n- You can set reminders about your child\'s health appointments and tasks.\n- The next upcoming reminder is displayed on the home page. \n- You will receive a notification on the time you set for the reminder.</string>
+    <string name="help_home_hospitals">3. Nearby Hospitals:\n- Find hospitals near your location for any urgent health needs.</string>
+
+    <string name="help_tracker_title">Growth Tracker</string>
+    <string name="help_tracker_desc">This page helps you track your child’s growth with two main tabs: Measurements and Charts. To use it, you will have to register your child\'s profile.</string>
+    <string name="help_tracker_manage_children">1. Managing Children:\n- Add or manage children’s profiles via the "Manage Children" link.</string>
+    <string name="help_tracker_measurements">2. Measurements:\n- Select your child from a dropdown menu to view their measurements.\n- Add or update measurements for your child.</string>
+    <string name="help_tracker_charts">3. Charts:\n- Visualize your child\'s growth over time with easy-to-read WHO (World Health Organisation) charts.\n- Charts update automatically when new measurements are added. \n- You can share those charts, for example with your doctor.</string>
+
+    <string name="help_chatbot_title">Chatbot</string>
+    <string name="help_chatbot_desc">This page provides an interactive chatbot to answer your questions about child health. The chatbot supports the following features:</string>
+    <string name="help_chatbot_answer_questions">1. Answering questions:\n- Consider the chatbot as a virtual assistant. It will help you and answer all your health-related questions.</string>
+    <string name="help_chatbot_retrieve_articles">2. Retrieving articles:\n- The chatbot has access to the articles database. Therefore, it will redirect you to an article to provide accurate information.</string>
+    <string name="help_chatbot_disease_diagnosis">3. Interpreting symptoms:\n- You can give the chatbot symptoms and it will diagnose the most probable disease. </string>
+
+    <string name="help_closing">Feel free to explore each section and make the most out of our app to ensure your child\'s health and wellbeing. If you have any questions or need further assistance, our chatbot is always available to help!</string>
+
+</resources>

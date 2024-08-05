@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_tracker"
+        android:icon="@drawable/barchart"
+        android:title="@string/title_tracker" />
+
+    <item
+        android:id="@+id/navigation_chatbot"
+        android:icon="@drawable/chatbot"
+        android:title="@string/title_chatbot" />
+
+</menu>

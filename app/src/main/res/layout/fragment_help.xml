@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.HelpFragment">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="16dp"
+                android:text="@string/help_title"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/abbey"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="16dp"
+                android:text="@string/help_intro"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_home_title"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/abbey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_home_desc"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_home_articles"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_home_reminders"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="16dp"
+                android:text="@string/help_home_hospitals"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_tracker_title"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/abbey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_tracker_desc"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_tracker_measurements"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_tracker_charts"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="16dp"
+                android:text="@string/help_tracker_manage_children"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_chatbot_title"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/abbey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_chatbot_desc"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_chatbot_answer_questions"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_chatbot_retrieve_articles"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="16dp"
+                android:text="@string/help_chatbot_disease_diagnosis"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/open_sans"
+                android:paddingBottom="8dp"
+                android:text="@string/help_closing"
+                android:textColor="@color/abbey"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+</ScrollView>
+
+</FrameLayout>

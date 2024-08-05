@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.pediatriccareassistant.view.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_tracker"
+        android:name="com.example.pediatriccareassistant.view.TrackerFragment"
+        android:label="@string/title_tracker"
+        tools:layout="@layout/fragment_tracker" />
+
+    <fragment
+        android:id="@+id/navigation_chatbot"
+        android:name="com.example.pediatriccareassistant.view.ChatbotFragment"
+        android:label="@string/title_chatbot"
+        tools:layout="@layout/fragment_chatbot" />
+    <fragment
+        android:id="@+id/navigation_articles"
+        android:name="com.example.pediatriccareassistant.view.ArticlesFragment"
+        android:label="fragment_articles"
+        tools:layout="@layout/fragment_articles" />
+    <fragment
+        android:id="@+id/addChildFragment"
+        android:name="com.example.pediatriccareassistant.view.AddChildFragment"
+        android:label="fragment_add_child"
+        tools:layout="@layout/fragment_add_child" />
+    <fragment
+        android:id="@+id/addMeasurementFragment"
+        android:name="com.example.pediatriccareassistant.view.AddMeasurementFragment"
+        android:label="fragment_add_measurement"
+        tools:layout="@layout/fragment_add_measurement" />
+    <fragment
+        android:id="@+id/addReminderFragment"
+        android:name="com.example.pediatriccareassistant.view.AddReminderFragment"
+        android:label="fragment_add_reminder"
+        tools:layout="@layout/fragment_add_reminder" />
+    <fragment
+        android:id="@+id/chartsFragment"
+        android:name="com.example.pediatriccareassistant.view.ChartsFragment"
+        android:label="fragment_charts"
+        tools:layout="@layout/fragment_charts" />
+    <fragment
+        android:id="@+id/measurementFragment"
+        android:name="com.example.pediatriccareassistant.view.MeasurementFragment"
+        android:label="fragment_measurement"
+        tools:layout="@layout/fragment_measurement" />
+    <fragment
+        android:id="@+id/readArticleFragment"
+        android:name="com.example.pediatriccareassistant.view.ReadArticleFragment"
+        android:label="fragment_read_article"
+        tools:layout="@layout/fragment_read_article" />
+    <fragment
+        android:id="@+id/remindersFragment"
+        android:name="com.example.pediatriccareassistant.view.RemindersFragment"
+        android:label="fragment_reminders"
+        tools:layout="@layout/fragment_reminders" />
+</navigation>
