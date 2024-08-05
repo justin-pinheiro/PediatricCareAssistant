@@ -4,8 +4,6 @@
     <string name="title_home">Home</string>
     <string name="title_tracker">Tracker</string>
     <string name="title_chatbot">Chatbot</string>
-    <string name="openai_key">sk-proj-HfOgcnLa2K9VzAy6rW3AT3BlbkFJ4XQomerEPUtObp0X9jBf</string>
-    <string name="maps_key">AIzaSyD8B-bXHTQVxeq7LCgFAbv4mq_9vZUFD5A</string>
 
     <string name="WHO_weight_chart_description">The WHO weight chart is a tool from the World Health Organization that shows how a child\'s weight compares to others of the same age, making sure they are growing properly.</string>
     <string name="WHO_height_weight_chart_description">The WHO height/weight chart is a tool from the World Health Organization that shows how a child\'s weight compares to others of the same height, ensuring they are at a healthy size.</string>
