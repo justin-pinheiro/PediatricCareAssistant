@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText emailInput, passwordInput;
     TextView registerLink;
     Button loginButton;
+    ImageButton googleLoginButton;
     ProgressBar progressBar;
 
     @Override
@@ -38,12 +40,46 @@ public class LoginActivity extends AppCompatActivity {
         emailInput = findViewById(R.id.login_email_edit_text);
         passwordInput = findViewById(R.id.login_password_edit_text);
         loginButton = findViewById(R.id.login_login_button);
+        googleLoginButton = findViewById(R.id.login_google_signin_button);
         registerLink = findViewById(R.id.login_not_registered_link);
         progressBar = findViewById(R.id.login_progress_bar);
         progressBar.setVisibility(View.GONE);
 
+        AuthenticationController.getInstance().configureGoogleSignIn(this);
+
+        googleLoginButton.setOnClickListener(this::signInWithGoogle);
+
         setRegisterLink();
         setLogginButton();
+    }
+
+    public void signInWithGoogle(View view) {
+        AuthenticationController.getInstance().signInWithGoogle(this);
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == AuthenticationController.RC_SIGN_IN) {
+            AuthenticationController.getInstance().handleGoogleSignInResult(data, new LoadingCallback() {
+                @Override
+                public void onStartLoading() {
+                    progressBar.setVisibility(View.VISIBLE);
+                }
+
+                @Override
+                public void onLoadingSuccessful() {
+                    progressBar.setVisibility(View.GONE);
+                    lauchMainActivityIfUserLoggedIn();
+                }
+
+                @Override
+                public void onLoadingFailed(Exception e) {
+                    progressBar.setVisibility(View.GONE);
+                }
+            });
+        }
     }
 
     private void setLogginButton() {

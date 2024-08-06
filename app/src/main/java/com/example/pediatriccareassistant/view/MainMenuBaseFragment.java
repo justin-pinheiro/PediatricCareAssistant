@@ -31,7 +31,7 @@ public abstract class MainMenuBaseFragment extends Fragment
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.home_menu_logout)
         {
-            AuthenticationController.getInstance().signoutUser();
+            AuthenticationController.getInstance().signOut();
             Intent intent = new Intent(requireContext(), LoginActivity.class);
             startActivity(intent);
             requireActivity().finish();
